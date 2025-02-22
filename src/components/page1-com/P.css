@@ -1,0 +1,23 @@
+.pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pag .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid gray;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: goldenrod;
+    border-radius: 10px;
+    margin: 2px;
+}
+.active{
+    background-color: blueviolet;
+}
+ 

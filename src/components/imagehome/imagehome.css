@@ -1,0 +1,40 @@
+
+.image1{
+    /* width: 85%; */
+    height: 60vh;
+    margin: 5px  auto;
+    /* border-radius: 30px; */
+    position: relative;
+    transition: 2s;
+    background-image: url('../../images/Untitled-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.carousel-item{
+    /* height: 600px; */
+}
+.carousel-item img{
+height: 100%;
+border-radius: 30px;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transform:  perspective(600px) translate3d(0px, -0.502px, 0px);
+    transform-origin :50% 50%;
+    max-width: 1349px;
+    max-height: 759px;
+}
+/* .image1 .textHome{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+} */
+

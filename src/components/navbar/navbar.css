@@ -1,0 +1,29 @@
+a{
+    color: inherit;
+    
+    color: black;
+}
+.logo{
+    width: 120px;
+    height:120px;
+    padding: 20px;
+}
+.d-flex{
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.me-2{
+    text-align: center;
+}
+.sticky-top{
+    background-color: blue;
+}
+Nav a{
+   padding: 30px;
+   color: black;
+   text-decoration: none;
+}
+

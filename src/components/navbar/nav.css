@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 20vh;
+    margin: auto;
+    position: fixed; 
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.search{
+    width: 50%;
+}
+.search .ss{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    border-radius: 30px;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.drop {
+    padding: 5px;
+    margin: 0;
+    position: relative;
+}
+.drop span{
+    position: absolute;
+    top: -5px;
+    left: 37px;
+    background: rgb(66, 12, 80);
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    
+
+}
+.linkss{
+    text-align: center;
+    padding: 5px;
+}
+.linkss ul li Link{
+    color: black;
+}
+.linkss ul{
+    list-style: none;
+}
+.linkss ul .mm{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.linkss ul li{
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+/* .bag{
+    color: white;
+    background-color: darkgreen;
+    padding: 5px;
+} */
+@media (max-width:1000px) {
+    .search{
+        width: 25%;
+    }
+}

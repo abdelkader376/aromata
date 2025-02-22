@@ -1,0 +1,10 @@
+.image2{
+    width: 100%;
+    background-image: url('./../../images/b387f662-c3f5-4d65-a02d-27005374c235.jpg');
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.image2 img{
+    width: 100%;
+}

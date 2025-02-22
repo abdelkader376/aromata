@@ -1,0 +1,34 @@
+.head-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe8e8ec ;
+    height: 300px;
+    background-image: url('./../../images/travel1-1-1-1000x500.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 5px;
+    
+}
+.head img{
+    width: 100%;
+    height: 100%;
+}
+.t{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-1{
+    text-align: center;
+    /* border:  2px solid purple; */
+    width: 300px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: black;
+}
