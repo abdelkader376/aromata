@@ -627,9 +627,9 @@ function App() {
       <Route path="/خلطات توابل مركزة" element={<Page5/>}/>
       <Route path="/منتجات حلول وتقنية الأغذية" element={<Page6/>}/>
       <Route path="/contact" element={<ContactPage/>}/>
-      <Route path="/Details/:id" element={<ProductDetails Products={Products}/>}/>
+      {/* <Route path="/Details/:id" element={<ProductDetails Products={Products}/>}/>
       <Route path="/search/:name" element={<Search Products={Products}/>}/>
-      <Route path="/cartpage2" element={<CartPage2/>}/>
+      <Route path="/cartpage2" element={<CartPage2/>}/> */}
       </Routes>
       
       <Footer/>
