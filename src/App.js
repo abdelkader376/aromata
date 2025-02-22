@@ -18,24 +18,24 @@ import  { Toaster } from 'react-hot-toast';
 import CartPage2 from "./components/cartpage/cartPage2";
 
 function App() {
-  // function Sendwhatsapp(){
-  //   var phonenumber = "+01120386278";
+  function Sendwhatsapp(){
+    var phonenumber = "+01120386278";
 
-  //   var name = document.querySelector(".name").value;
-  //   var email = document.querySelector(".email").value;
-  //   var country = document.querySelector(".country").value;
-  //   var message = document.querySelector(".message").value;
+    var name = document.querySelector(".name").value;
+    var email = document.querySelector(".email").value;
+    var country = document.querySelector(".country").value;
+    var message = document.querySelector(".message").value;
 
-  //   var url = "https://wa.me/" + phonenumber + "?text="
-  //   +"*Name :* "+name+"%0a"
-  //   +"*Email :* "+email+"%0a"
-  //   +"*Country:* "+country+"%0a"
-  //   +"*Message :* "+message
-  //   +"%0a%0a"
-  //   +"This is an example of send HTML form data to WhatsApp";
+    var url = "https://wa.me/" + phonenumber + "?text="
+    +"*Name :* "+name+"%0a"
+    +"*Email :* "+email+"%0a"
+    +"*Country:* "+country+"%0a"
+    +"*Message :* "+message
+    +"%0a%0a"
+    +"This is an example of send HTML form data to WhatsApp";
 
-  //   window.open(url, '_blank').focus();
-  // }
+    window.open(url, '_blank').focus();
+  }
   // const [cart,setCart]=useState([])
  const  Products =[
          {
@@ -627,9 +627,9 @@ function App() {
       <Route path="/خلطات توابل مركزة" element={<Page5/>}/>
       <Route path="/منتجات حلول وتقنية الأغذية" element={<Page6/>}/>
       <Route path="/contact" element={<ContactPage/>}/>
-      {/* <Route path="/Details/:id" element={<ProductDetails Products={Products}/>}/>
+      <Route path="/Details/:id" element={<ProductDetails Products={Products}/>}/>
       <Route path="/search/:name" element={<Search Products={Products}/>}/>
-      <Route path="/cartpage2" element={<CartPage2/>}/> */}
+      <Route path="/cartpage2" element={<CartPage2/>}/>
       </Routes>
       
       <Footer/>
