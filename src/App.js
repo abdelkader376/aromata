@@ -616,7 +616,7 @@ function App() {
     <div className="App">
 
             <Toaster/>
-      <Nav  />
+      {/* <Nav  /> */}
        <SubNavbar/>
       <Routes>
       <Route index  element={<Homee />}/>
