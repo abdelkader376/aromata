@@ -616,11 +616,11 @@ function App() {
     <div className="App">
 
             <Toaster/>
-      <Nav  />
+      {/* <Nav  /> */}
        <SubNavbar/>
       <Routes>
       <Route index  element={<Homee />}/>
-      <Route path="/توابل"  element={<Page1/>}/>
+      {/* <Route path="/توابل"  element={<Page1/>}/>
       <Route path="/صوصات"  element={<Page2/>}/>
       <Route path="/النكهات المركزة بودر" element={<Page3/>}/>
       <Route path="/النكهات المركزة زيوت" element={<Page4/>}/>
@@ -629,7 +629,7 @@ function App() {
       <Route path="/contact" element={<ContactPage/>}/>
       <Route path="/Details/:id" element={<ProductDetails Products={Products}/>}/>
       <Route path="/search/:name" element={<Search Products={Products}/>}/>
-      <Route path="/cartpage2" element={<CartPage2/>}/>
+      <Route path="/cartpage2" element={<CartPage2/>}/> */}
       </Routes>
       
       <Footer/>
