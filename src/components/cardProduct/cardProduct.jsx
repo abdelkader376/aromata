@@ -11,7 +11,7 @@ export default function CardProduct(props){
      useEffect(()=>{
             AOS.init();
         },[])
-        // const setCart = useSetRecoilState(cartAtom)
+        const setCart = useSetRecoilState(cartAtom)
         
     return(
         
