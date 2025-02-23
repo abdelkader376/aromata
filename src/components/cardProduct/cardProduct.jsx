@@ -6,8 +6,20 @@ import 'aos/dist/aos.css'
 import { useResetRecoilState, useSetRecoilState } from 'recoil'
 import cartAtom from '../../atom/cartAtom'
 import toast from "react-hot-toast";
+import { atom } from "recoil";
 
 export default function CardProduct(props){
+  
+let value=[];
+if(localStorage.getItem('cart')){
+ value=JSON.parse(localStorage.getItem('cart'))
+}
+const cartAtom = atom({
+    key: 'cartATom', // unique ID (with respect to other atoms/selectors)
+    default: value, // default value (aka initial value)
+  });
+
+
      useEffect(()=>{
             AOS.init();
         },[])
